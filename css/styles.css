@@ -1,0 +1,40 @@
+.logo-image {
+    width: 125px;
+}
+
+.small-images {
+    height: 200px;
+    width: 250px;
+}
+
+.small-images-container {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.small-image-container img {
+    vertical-align: middle;
+}
+
+.small-images-title-container {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.center-image {
+    width: 100%;
+}
+
+.line {
+   width: 100%; 
+}
+
+.small-title-container {
+    margin-top: 20px;
+}
+
+.small-title {
+    text-align: left;
+}
