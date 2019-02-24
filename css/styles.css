@@ -38,3 +38,7 @@
 .small-title {
     text-align: left;
 }
+
+footer.container {
+    text-align: right;
+}

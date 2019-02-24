@@ -1,52 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">   
-    <head>
-        <meta charset="utf-8">
-        <title>Trần Long Châu Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">    
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="row container">
-                <div class="col-md-6">
-                    <img src="img/logo.jpg" alt="Portfolio image" class="logo-image">
-                </div>
-                <div class="col-md-6">
-                    <h1></h1>
-                    <h1>Trần Long Châu</h1>
-                    <h4>Front End Developer</h4>
-                </div>
-            </div>
-            <div class="row container"><hr class="line"></div>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Trần Long Châu Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="row container">
+        <div class="col-md-6">
+            <img src="img/logo.jpg" alt="Portfolio image" class="logo-image img-fluid">
+        </div>
+        <div class="col-md-6">
+            <h1>Trần Long Châu</h1>
+            <h4>Front End Developer</h4>
+        </div>
+        <div class="row container">
+            <hr class="line">
+        </div>
+    </header>
+    <main>
+        <article class="container">
+
             <div class="row container">
                 <div class="col-md-12">
-                    <img src="img/center-image.jpg" alt="Center Image" class="center-image">
-                </div>               
+                    <img src="img/center-image.jpg" alt="Center Image" class="center-image img-fluid">
+                </div>
             </div>
             <div class="row small-title-container container">
                 <h2 class="small-title">What I know:</h2>
             </div>
             <div class="row small-images-container container">
                 <div class="col-md-4">
-                    <img src="img/python-django.jpg" alt="Python Django" class="small-images">  
+                    <img src="img/python-django.jpg" alt="Python Django" class="small-images img-fluid">
                     <h2 class="small-images-title">Django Framework</h2>
-                    <a href="https://www.djangoproject.com/" class="small-images-title">URL for Django Framework</a>                                    
+                    <p class="desc-para"><a href="https://www.djangoproject.com/" class="small-images-title" target="_blank">Python web framework</a></p>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/Arduino_ftdi_chip-1.jpg" alt="Electronics" class="small-images">  
+                    <img src="img/Arduino_ftdi_chip-1.jpg" alt="Electronics" class="small-images img-fluid">
                     <h2 class="small-images-title">Electronics</h2>
-                    <a href="https://www.arduino.cc/" class="small-images-title">URL for Arduino</a>                                       
+                    <p class="desc-para"><a href="https://www.arduino.cc/" class="small-images-title" target="_blank">Embedded systems, small circuits and alike</a></p>
                 </div>
                 <div class="col-md-4">
-                    <img src="img/Allen_Bradley_PLC_%20Automation_%20Melbourne_Sydney.jpg_665x346.jpg" alt="PLC Automation" class="small-images">  
+                    <img src="img/Allen_Bradley_PLC_%20Automation_%20Melbourne_Sydney.jpg_665x346.jpg" alt="PLC Automation" class="small-images img-fluid">
                     <h2 class="small-images-title">PLC Automation</h2>
-                    <a href="https://www.wikiwand.com/vi/Programmable_logic_controller" class="small-images-title">URL for PLC</a>                           
-                </div>                
+                    <p class="desc-para"><a href="https://www.wikiwand.com/vi/Programmable_logic_controller" class="small-images-title" target="_blank">Siemens and Beckoff PLCs</a> </p>
+                </div>
             </div>
-        </div>
-       
-    </body>
+        </article>
+
+    </main>
+    <footer class="container">
+        <p>Redesigned as per rubric of Udacity course.</p>
+    </footer>
+</body>
+
 </html>
