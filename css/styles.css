@@ -2,6 +2,10 @@
     width: 125px;
 }
 
+.header_title {
+    width: 100%;
+}
+
 .small-images {
     height: 200px;
     width: 250px;
